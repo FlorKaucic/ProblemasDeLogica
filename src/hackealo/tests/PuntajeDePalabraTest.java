@@ -17,14 +17,16 @@ public class PuntajeDePalabraTest {
     public static void main(String[] args) {
         // TODO code application logic here
         /*
-        El "puntaje" de una palabra es la suma del puntaje de cada letra. El 
-        "puntaje" de una letra es la posición en donde se encuentra en una 
-        palabra, multiplicada por su posición en el abecedario. Por ejemplo, 
-        el puntaje de "acb" es (1*1) + (2*3) + (3*2). Teniendo en cuenta 
-        permutaciones sin repeticiones (por ejemplo "aa", "Aa", "aA" y "AA" 
-        tienen sólo una permutación), ¿cuál es la suma de las puntuaciones 
-        de las permutaciones de "iVtrclF"?
-        */
+         El "puntaje" de una palabra es la suma del puntaje de cada letra. El 
+         "puntaje" de una letra es la posición en donde se encuentra en una 
+         palabra, multiplicada por su posición en el abecedario. Por ejemplo, 
+         el puntaje de "acb" es (1*1) + (2*3) + (3*2). Teniendo en cuenta 
+         permutaciones sin repeticiones (por ejemplo "aa", "Aa", "aA" y "AA" 
+         tienen sólo una permutación), ¿cuál es la suma de las puntuaciones 
+         de las permutaciones de "iVtrclF"?
+         */
+
+        System.out.println("Puntaje: "+PuntajeDePalabra.obtenerPuntaje("iVtrclF"));
+
     }
-    
 }
