@@ -19,6 +19,8 @@ public class NumerosPrimosTest {
     public static void main(String[] args) {
         // ¿Cuál es la suma de todos los primos menores o iguales a 5790?
         System.out.println(NumerosPrimos.sumarNumerosPrimos(5790));
+        // ¿Cuántos primos menores o iguales a 7711 existen?
+        System.out.println(NumerosPrimos.contarNumerosPrimos(7711));       
     }
     
 }
