@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package hackealo.logica.letras;
+package hackealo.logica;
 
 import java.util.ArrayList;
 
@@ -14,14 +14,12 @@ import java.util.ArrayList;
 public class PuntajeDePalabra {
 
     public static int obtenerPuntaje(String cadena) {
-        ArrayList<String> permutaciones = new ArrayList<String>();
+        ArrayList<String> permutaciones = new ArrayList();
         obtenerPermutacion(permutaciones, "", cadena);
         int puntaje = 0;
-        int punt;
         for (String permutacion : permutaciones)
         {
-            puntaje += (punt=puntajeDePermutacion(permutacion));
-            System.out.println(punt);
+            puntaje += puntajeDePermutacion(permutacion);
         }
         return puntaje;
     }
@@ -40,8 +38,7 @@ public class PuntajeDePalabra {
     private static int puntajeDePermutacion(String cadena) {
         int puntaje = 0;
         String cadenaUC = cadena.toUpperCase();
-        System.out.println(cadenaUC);
-        for (int i = 1; i <= cadenaUC.length(); i++)
+        for (int i = 1; i <= cadena.length(); i++)
             puntaje += (i * (((int)cadenaUC.charAt(i-1) - 64)));
         return puntaje;
     }

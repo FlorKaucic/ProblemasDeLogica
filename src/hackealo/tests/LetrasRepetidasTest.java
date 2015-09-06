@@ -5,7 +5,7 @@
  */
 package hackealo.tests;
 
-import hackealo.logica.letras.LetrasRepetidas;
+import hackealo.logica.LetrasRepetidas;
 /**
  *
  * @author Flor

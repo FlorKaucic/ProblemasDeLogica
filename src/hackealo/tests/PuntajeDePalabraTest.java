@@ -5,7 +5,7 @@
  */
 package hackealo.tests;
 
-import hackealo.logica.letras.PuntajeDePalabra;
+import hackealo.logica.PuntajeDePalabra;
 
 /**
  *
@@ -29,6 +29,7 @@ public class PuntajeDePalabraTest {
          */
 
         System.out.println("Puntaje: "+PuntajeDePalabra.obtenerPuntaje("iVtrclF"));
+        System.out.println("Puntaje: "+PuntajeDePalabra.obtenerPuntaje("CKyPUht"));
         
     }
 }
