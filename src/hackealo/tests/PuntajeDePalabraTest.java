@@ -5,6 +5,8 @@
  */
 package hackealo.tests;
 
+import hackealo.logica.letras.PuntajeDePalabra;
+
 /**
  *
  * @author Flor
@@ -27,6 +29,6 @@ public class PuntajeDePalabraTest {
          */
 
         System.out.println("Puntaje: "+PuntajeDePalabra.obtenerPuntaje("iVtrclF"));
-
+        
     }
 }
