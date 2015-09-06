@@ -5,6 +5,8 @@
  */
 package hackealo.tests;
 
+import hackealo.logica.NumerosPrimos;
+
 /**
  *
  * @author Flor
@@ -15,7 +17,8 @@ public class NumerosPrimosTest {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // ¿Cuál es la suma de todos los primos menores o iguales a 5790?
+        System.out.println(NumerosPrimos.sumarNumerosPrimos(5790));
     }
     
 }
